@@ -47,10 +47,9 @@ function validateUsername(name){
   }else{
     return "Available";
   }
-  return name;
 }
 
-validateUsername("Admin_Rahim");
+console.log(validateUsername("Admin_Rahim"));
 
 // Question 4: Dhaka CNG Fare Meter
 
@@ -63,5 +62,5 @@ function getCngFare(distance, isNight, waitingMinutes){
 
 
 function getChaseVerdict(target, scored, ballsLeft){
-  
+
 }
