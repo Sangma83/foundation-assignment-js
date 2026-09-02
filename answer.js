@@ -33,7 +33,7 @@ function getDayType(day) {
     }
 }
 
-console.log(getDayType("Bandarban")); 
+getDayType("Friday"); 
 
 // Question 3: Username Gatekeeper
 
