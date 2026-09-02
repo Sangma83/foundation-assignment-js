@@ -54,5 +54,14 @@ validateUsername("Admin_Rahim");
 
 // Question 4: Dhaka CNG Fare Meter
 
+function getCngFare(distance, isNight, waitingMinutes){
+
+}
+
 
 // Question 5: Run Chase Commentator
+
+
+function getChaseVerdict(target, scored, ballsLeft){
+  
+}
