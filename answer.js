@@ -49,18 +49,32 @@ function validateUsername(name){
   }
 }
 
-console.log(validateUsername("Admin_Rahim"));
+validateUsername("Admin_Rahim");
 
 // Question 4: Dhaka CNG Fare Meter
 
-function getCngFare(distance, isNight, waitingMinutes){
+function getCngFare(distance, isNight = false, waitingMinutes = 0){
+   let fare = 50;
+   let cost = distance - 2;
+   let timeExtra = waitingMinutes * 2;
 
+    if (distance > 2) {
+        fare += (cost * 15);
+        fare += timeExtra;
+    }
+    if (isNight) {
+        fare += (fare * 0.20);
+    }
+
+    return fare;
 }
+
+getCngFare(2);
 
 
 // Question 5: Run Chase Commentator
 
 
-function getChaseVerdict(target, scored, ballsLeft){
+const getChaseVerdict = (target, scored, ballsLeft) => {
 
 }
