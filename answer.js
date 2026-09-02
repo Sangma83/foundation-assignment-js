@@ -9,3 +9,16 @@ function describeValue(num){
 }
 
 describeValue("hello");
+
+
+// Question 2: Bangladesh Weekend Machine
+
+
+
+// Question 3: Username Gatekeeper
+
+
+// Question 4: Dhaka CNG Fare Meter
+
+
+// Question 5: Run Chase Commentator
