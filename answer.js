@@ -8,7 +8,7 @@ function describeValue(num){
   }
 }
 
-// describeValue("hello");
+describeValue("hello");
 
 
 // Question 2: Bangladesh Weekend Machine
@@ -37,6 +37,20 @@ getDayType("Friday");
 
 // Question 3: Username Gatekeeper
 
+function validateUsername(name){
+  if(name.length < 4){
+    return "Too Short";
+  }else if(name.includes(" ")){
+    return "No Space Allowed";
+  }else if(name.includes("admin".charAt(0).toLowerCase())){
+    return "Reserved Word";
+  }else{
+    return "Available";
+  }
+  return name;
+}
+
+validateUsername("Admin_Rahim");
 
 // Question 4: Dhaka CNG Fare Meter
 
